@@ -15,7 +15,8 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/mathieu_le_roux_6_hqvy1e7ni_unsplash" />
+        app:srcCompat="@drawable/mathieu_le_roux_6_hqvy1e7ni_unsplash"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageButton
         android:id="@+id/instrBtn"
@@ -53,13 +54,13 @@
         app:srcCompat="@drawable/fish"
         tools:ignore="SpeakableTextPresentCheck,RedundantDescriptionCheck" />
 
-    <ImageButton
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/infoBtn"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="312dp"
         android:background="@drawable/circle"
-        android:contentDescription="@string/go_to_the_about_page"
+        android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         android:tooltipText="App Information and Credits"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,13 +73,13 @@
         android:id="@+id/appTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription=" fish"
+        android:contentDescription="@string/balls"
         android:fontFamily="@font/titan_one"
         android:shadowColor="#2A3887"
         android:shadowDx="8"
         android:shadowDy="8"
         android:shadowRadius="12"
-        android:text="Fish"
+        android:text="@string/balls"
         android:textColor="#4D61CF"
         android:textSize="96sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -96,8 +97,8 @@
         android:shadowDx="8"
         android:shadowDy="8"
         android:shadowRadius="12"
-        android:text="Depth"
-        android:textColor="#E1DBDB"
+        android:text="@string/deep"
+        android:textColor="#FFFFFFFF"
         android:textSize="72sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

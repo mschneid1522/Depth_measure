@@ -4,4 +4,7 @@
     <string name="fishing_pole_over_open_water">Fishing pole over open water</string>
     <string name="circle_button">circle button</string>
     <string name="go_to_the_about_page" />
+    <string name="balls">Balls</string>
+    <string name="deep">Deep</string>
+    <string name="about">About</string>
 </resources>
